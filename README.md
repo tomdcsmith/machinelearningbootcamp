@@ -26,7 +26,7 @@ If you already have any of the previously-mentioned libraries installed, you can
 
     pip install <package> --upgrade
 
-where <package> can be any of the libraries mentioned above.
+where `<package>` can be any of the libraries mentioned above.
 
 ## Install required packages with Conda
 
