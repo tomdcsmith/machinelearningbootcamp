@@ -22,7 +22,7 @@ You may need to use `sudo pip install` (for OSX, *nix, etc) or run your command 
 or if you're using windows, follow the instructions at: [http://deeplearning.net/software/theano/install_windows.html#install-windows](http://deeplearning.net/software/theano/install_windows.html#install-windows)
 
 
-If you already have any of the previously-mentioned libraries installed, you can update them to a newer version using the syntax: 
+If you already have any of the previously-mentioned libraries installed, you can update them to a newer version using the syntax:
 
     pip install <package> --upgrade
 
@@ -30,7 +30,7 @@ where `<package>` can be any of the libraries mentioned above.
 
 ## Install required packages with Conda
 
-Once more in your terminal run: 
+Once more in your terminal run:
 
     conda install opencv
 
@@ -39,21 +39,25 @@ If the opencv/cv2 library does not load and gives you an error while in step 8, 
     conda install -c https://conda.binstar.org/menpo opencv
 
 
-## Install git 
+## Install git
 
 Install git if you don't have it: [http://git-scm.com/](http://git-scm.com/)
 
 
-##  Sign up for a GitHub 
+##  Sign up for a GitHub
 
 Sign up for a GitHub account or sign in if you have one: [github.com](https://github.com)
 
 
 ## Fork the code
 
-Fork the CCA bootcamp repository at: 
+Fork the CCA bootcamp repository at:
 
 [https://github.com/cambridgecoding/machinelearningbootcamp.git](https://github.com/cambridgecoding/machinelearningbootcamp.git)
+
+## Clone the code
+
+Clone the code from your own repository.
 
 ## Download the data
 
@@ -64,3 +68,7 @@ VGG16 weights (500MB) from [https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmR
 ## Finalise the setup
 
 Open and run the "[load_libraries.ipynb](https://github.com/cambridgecoding/machinelearningbootcamp/blob/master/load_libraries.ipynb)" file, wait for the pre-fetching of the CIFAR10 dataset to be completed (it may take a while but a progress bar will show you the remaining time) and check whether the libraries have been successfully loaded.
+
+To execute the notebook, in your terminal run:
+
+    ipython notebook load_libraries.ipynb
